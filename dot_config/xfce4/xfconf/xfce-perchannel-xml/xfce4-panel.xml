@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
+    <value type="int" value="3"/>
+    <value type="int" value="4"/>
+    <property name="dark-mode" type="bool" value="false"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=8;x=119;y=753"/>
+      <property name="length" type="double" value="1.9765739385065886"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="size" type="uint" value="28"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="15"/>
+        <value type="int" value="16"/>
+        <value type="int" value="23"/>
+        <value type="int" value="25"/>
+        <value type="int" value="17"/>
+        <value type="int" value="24"/>
+        <value type="int" value="1"/>
+        <value type="int" value="31"/>
+      </property>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.18823529411764706"/>
+        <value type="double" value="0.20392156862745098"/>
+        <value type="double" value="0.27450980392156865"/>
+        <value type="double" value="0.94999999999999996"/>
+      </property>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="enable-struts" type="bool" value="true"/>
+      <property name="length-adjust" type="bool" value="true"/>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="position" type="string" value="p=4;x=1266;y=753"/>
+      <property name="size" type="uint" value="28"/>
+      <property name="length" type="double" value="3.9531478770131772"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="21"/>
+        <value type="int" value="26"/>
+        <value type="int" value="34"/>
+      </property>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.18823529411764706"/>
+        <value type="double" value="0.20392156862745098"/>
+        <value type="double" value="0.27450980392156865"/>
+        <value type="double" value="0.94999999999999996"/>
+      </property>
+    </property>
+    <property name="panel-3" type="empty">
+      <property name="position" type="string" value="p=12;x=347;y=748"/>
+      <property name="size" type="uint" value="28"/>
+      <property name="length" type="double" value="1"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="30"/>
+      </property>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.18823529411764706"/>
+        <value type="double" value="0.20392156862745098"/>
+        <value type="double" value="0.27450980392156865"/>
+        <value type="double" value="0.94999999999999996"/>
+      </property>
+    </property>
+    <property name="panel-4" type="empty">
+      <property name="position" type="string" value="p=12;x=1059;y=753"/>
+      <property name="size" type="uint" value="28"/>
+      <property name="length" type="double" value="10"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="35"/>
+        <value type="int" value="37"/>
+        <value type="int" value="39"/>
+        <value type="int" value="2"/>
+      </property>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.18823529411764706"/>
+        <value type="double" value="0.20392156862745098"/>
+        <value type="double" value="0.27450980392156865"/>
+        <value type="double" value="0.94999999999999996"/>
+      </property>
+      <property name="mode" type="uint" value="0"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-23" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17023917021.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-24" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16712150758.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-25" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16712150507.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-16" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-15" type="string" value="whiskermenu">
+      <property name="position-categories-alternate" type="bool" value="true"/>
+      <property name="position-profile-alternate" type="bool" value="false"/>
+      <property name="position-search-alternate" type="bool" value="true"/>
+      <property name="position-commands-alternate" type="bool" value="true"/>
+      <property name="button-single-row" type="bool" value="true"/>
+      <property name="view-mode" type="int" value="1"/>
+      <property name="recent" type="array">
+        <value type="string" value="thunar.desktop"/>
+        <value type="string" value="redshift-gtk.desktop"/>
+        <value type="string" value="auto-cpufreq-gtk.desktop"/>
+        <value type="string" value="xfce4-file-manager.desktop"/>
+        <value type="string" value="org.kde.krita.desktop"/>
+        <value type="string" value="codium.desktop"/>
+        <value type="string" value="kotatogramdesktop.desktop"/>
+        <value type="string" value="firefox.desktop"/>
+        <value type="string" value="pavucontrol.desktop"/>
+      </property>
+      <property name="launcher-show-name" type="bool" value="true"/>
+      <property name="position-categories-horizontal" type="bool" value="false"/>
+      <property name="show-button-title" type="bool" value="false"/>
+      <property name="hover-switch-category" type="bool" value="true"/>
+      <property name="category-icon-size" type="int" value="1"/>
+      <property name="menu-opacity" type="int" value="88"/>
+      <property name="launcher-show-description" type="bool" value="true"/>
+      <property name="launcher-show-tooltip" type="bool" value="false"/>
+      <property name="recent-items-max" type="int" value="9"/>
+      <property name="menu-height" type="int" value="550"/>
+      <property name="menu-width" type="int" value="250"/>
+      <property name="button-icon" type="string" value="/usr/share/pixmaps/endeavouros-icon.png"/>
+      <property name="button-title" type="string" value="EndeavourOS"/>
+      <property name="favorites" type="array">
+        <value type="string" value="xfce4-web-browser.desktop"/>
+        <value type="string" value="xfce4-mail-reader.desktop"/>
+        <value type="string" value="xfce4-file-manager.desktop"/>
+        <value type="string" value="xfce4-terminal-emulator.desktop"/>
+        <value type="string" value="org.kde.krita.desktop"/>
+        <value type="string" value="gparted.desktop"/>
+        <value type="string" value="firefox.desktop"/>
+        <value type="string" value="ca.desrt.dconf-editor.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-17" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17014422461.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-21" type="string" value="datetime"/>
+    <property name="plugin-26" type="string" value="netload"/>
+    <property name="plugin-30" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="false"/>
+    </property>
+    <property name="plugin-31" type="string" value="windowmenu">
+      <property name="style" type="uint" value="1"/>
+      <property name="all-workspaces" type="bool" value="false"/>
+    </property>
+    <property name="plugin-34" type="string" value="actions">
+      <property name="button-title" type="uint" value="0"/>
+      <property name="appearance" type="uint" value="0"/>
+      <property name="items" type="array">
+        <value type="string" value="+lock-screen"/>
+        <value type="string" value="+switch-user"/>
+        <value type="string" value="+separator"/>
+        <value type="string" value="-suspend"/>
+        <value type="string" value="-hibernate"/>
+        <value type="string" value="-hybrid-sleep"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-shutdown"/>
+        <value type="string" value="-restart"/>
+        <value type="string" value="+separator"/>
+        <value type="string" value="+logout"/>
+        <value type="string" value="-logout-dialog"/>
+      </property>
+    </property>
+    <property name="plugin-35" type="string" value="systray">
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “zte_2.4g_kbkc3k” active: zte_2.4g_kbkc3k (71%)"/>
+        <value type="string" value="wi-fi network connection “zte_2.4g_kbkc3k” active: zte_2.4g_kbkc3k (76%)"/>
+        <value type="string" value="wi-fi network connection “@wifi.uniska.lsp” active: @wifi.uniska.lsp (76%)"/>
+        <value type="string" value="wi-fi network connection “@wifi.uniska.lsp” active: @wifi.uniska.lsp (78%)"/>
+        <value type="string" value="wi-fi network connection “ayam goreng” active: ayam goreng (71%)"/>
+        <value type="string" value="wi-fi network connection “yayasan peduli wifi” active: yayasan peduli wifi (60%)"/>
+        <value type="string" value="wi-fi network connection “realme 5 pro” active: realme 5 pro (82%)"/>
+        <value type="string" value="no network connection"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="wi-fi network connection “yayasan peduli wifi” active: yayasan peduli wifi (68%)"/>
+        <value type="string" value="wi-fi network connection “yayasan peduli wifi” active: yayasan peduli wifi (80%)"/>
+        <value type="string" value="wi-fi network connection “yayasan peduli wifi” active: yayasan peduli wifi (63%)"/>
+        <value type="string" value="wi-fi network connection “yayasan peduli wifi” active: yayasan peduli wifi (58%)"/>
+        <value type="string" value="wi-fi network connection “yayasan peduli wifi” active: yayasan peduli wifi (54%)"/>
+        <value type="string" value="wi-fi network connection “yayasan peduli wifi” active: yayasan peduli wifi (72%)"/>
+        <value type="string" value="wi-fi network connection “yayasan peduli wifi” active: yayasan peduli wifi (74%)"/>
+        <value type="string" value="wi-fi network connection “yayasan peduli wifi” active: yayasan peduli wifi (76%)"/>
+        <value type="string" value="parcellite"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="KotatogramDesktop"/>
+        <value type="string" value="redshift"/>
+      </property>
+    </property>
+    <property name="plugin-37" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="known-players" type="string" value="/usr/share/applications/harmonoid;firefox;io.github.celluloid_player.Celluloid"/>
+    </property>
+    <property name="plugin-39" type="string" value="notification-plugin"/>
+    <property name="plugin-2" type="string" value="power-manager-plugin"/>
+    <property name="plugin-1" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="false"/>
+    </property>
+  </property>
+</channel>
